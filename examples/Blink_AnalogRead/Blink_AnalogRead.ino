@@ -1,6 +1,5 @@
 /*
- * Based on Blink_AnalogRead example from: https://github.com/feilipu/Arduino_FreeRTOS_Library
- * Modified by: Frederic Pillon <frederic.pillon (at) st.com>
+ * Based on Blink_AnalogRead
  */
 #include <STM32FreeRTOS.h>
 
@@ -58,24 +57,6 @@ void TaskBlink(void *pvParameters)  // This is a task.
   Blink
   Turns on an LED on for one second, then off for one second, repeatedly.
 
-  Most Arduinos have an on-board LED you can control. On the UNO, LEONARDO, MEGA, and ZERO
-  it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN takes care
-  of use the correct LED pin whatever is the board used.
-
-  The MICRO does not have a LED_BUILTIN available. For the MICRO board please substitute
-  the LED_BUILTIN definition with either LED_BUILTIN_RX or LED_BUILTIN_TX.
-  e.g. pinMode(LED_BUILTIN_RX, OUTPUT); etc.
-
-  If you want to know what pin the on-board LED is connected to on your Arduino model, check
-  the Technical Specs of your board  at https://www.arduino.cc/en/Main/Products
-
-  This example code is in the public domain.
-
-  modified 8 May 2014
-  by Scott Fitzgerald
-
-  modified 2 Sep 2016
-  by Arturo Guadalupi
 */
 
   // initialize digital LED_BUILTIN on pin 13 as an output.

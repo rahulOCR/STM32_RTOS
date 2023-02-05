@@ -1,6 +1,5 @@
 /*
- * Based on AnalogRead_DigitalRead example from: https://github.com/feilipu/Arduino_FreeRTOS_Library
- * Modified by: Frederic Pillon <frederic.pillon (at) st.com>
+ * Based on AnalogRead_DigitalRead
  */
 #include <STM32FreeRTOS.h>
 
